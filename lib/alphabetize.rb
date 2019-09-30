@@ -7,6 +7,5 @@ def alphabetize(arr)
     element.split("").map do |letter|
      ESPERANTO_ALPHABET.index(letter)
     end
-  #binding.pry  
   end
 end
